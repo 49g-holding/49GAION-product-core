@@ -1,6 +1,6 @@
 # Security
 
-**49GAION Product Core, mother blueprint `v0.1.0` · 16 October 2026.**
+**49GAION Product Core, mother blueprint `v0.1.1` · 19 October 2026.**
 
 - **No secrets.** No password, key, token, seed phrase or one-time code is ever written here. Secrets live only in each organisation's vault. The credential IDs in `cards/bots/` are placeholders, never credentials.
 - **No organisation's data and no personal data.** No product, category, price, company, customer, partner or member of staff of any organisation is ever written in this repository or in the 49GAION Library.

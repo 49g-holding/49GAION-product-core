@@ -10,7 +10,7 @@ The one-page summary is at the top of the blueprint.
 
 | Path | What it is |
 |---|---|
-| [`blueprint/PC-BLUEPRINT.md`](blueprint/PC-BLUEPRINT.md) | the mother blueprint, `v0.1.0`, on the 49GAION AIOC template |
+| [`blueprint/PC-BLUEPRINT.md`](blueprint/PC-BLUEPRINT.md) | the mother blueprint, `v0.1.1`, on the 49GAION AIOC template |
 | [`tests/TEST-PC.md`](tests/TEST-PC.md) | the fixed test, TEST-PC v1: 48 cases, every one `NOT_RUN`, keeping the Library's TEST-PRODUCT-CORE v1 as cases 1 to 13 |
 | [`cards/`](cards/) | the unit cards of its Pods and Cells, and the bot identity cards, generated from blueprint §17 |
 | [`decisions/`](decisions/) | the decision records of this repository |
