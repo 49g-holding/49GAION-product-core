@@ -60,7 +60,7 @@ Each case runs on a fixture organisation with no real product, company or custom
 
 | # | Case | Passes when |
 |---|---|---|
-| 37 | Chief of Staff | The default Chief of Staff test, (a) to (h), passes for `[ORG]CELL-PCCS`. |
+| 37 | Chief of Staff | The default Chief of Staff test, (a) to (h), passes for `[ORG]CELL-COSPC`. |
 | 38 | Office | The default Office test (a) to (d) passes whenever an Office exists; under load, an Office is proposed to the Chief Product Officer and never self-created. |
 | 39 | Input socket | Each converter of blueprint §4.3 passes a good sample and rejects a bad one with the right reason. |
 | 40 | Panel | The default Panel test passes. |
@@ -78,7 +78,7 @@ Each case runs on a fixture organisation with no real product, company or custom
 | Test | Part | Owner | Cases |
 |---|---|---|---|
 | TEST-PC-CPO v1 | Chief Product Officer | the Cell carrying `[ORG]HOAC-TM` | 3, 18, 34, 35, 42, 43 |
-| TEST-PC-PCCS v1 | Product Core Chief of Staff | `[ORG]CELL-CPO` | 1, 2, 11, 14 to 16, 25 to 27, 37, 39, 41, 44, 45 |
+| TEST-PC-COSPC v1 | Product Core Chief of Staff | `[ORG]CELL-CPO` | 1, 2, 11, 14 to 16, 25 to 27, 37, 39, 41, 44, 45 |
 | TEST-PC-PCCO v1 | Product Core CPO Office | `[ORG]CELL-CPO` | 4, 9, 14, 15, 17, 21, 34, 36 |
 | TEST-PC-PIC v1 | Product Intake Clerk | `[ORG]CELL-CPO` | 2, 14, 15 |
 | TEST-PC-PK v1 | Portfolio Keeper | `[ORG]CELL-CPO` | 4, 5, 10, 17, 18 |
