@@ -60,8 +60,9 @@ Every rule here is **New** in `v0.2.0` unless it cites Protocol §18 or the blue
 | The weekly review (A4) and each category's page | weekly, on the organisation's review day |
 | Every answer to an order of the human hub, acknowledged the same day and reported until done | as it moves |
 | Every act that is the governing seat's: a departure from the source of record (R5), and the versions R6 keeps with it (§4.5) | as each is ready, as one decision row with a recommendation |
-| Each seat opened, closed or made human, so that the hub records who stands behind it | the same day |
-| Every S1 incident, and every product retired or parked | the same hour; the same day |
+| Each seat opened, closed or made human, and each delegation a human seat signs, so that the hub records who stands behind each seat and with what share (A1 sends them) | the same day |
+| Every S1 incident | the same hour |
+| Every product retired or parked | the same day |
 | The model-spend review at its mark (§7.3) | when the mark is reached |
 | Every change to the mandate, the blueprint or the standards, by pull request | as each is ready |
 
@@ -107,8 +108,8 @@ These acts belong to a human seat. Each may be handed to the seat's own COS, ins
 | # | Act | Seat | Default time | Stand-in when the time lapses |
 |---|---|---|---|---|
 | R1 | Accept a feature on demo: by default, the passed criteria E12 prepared, in one confirmed act per feature or release | the Product Owner | 2 working days from "on demo" | a deputy holding R1; else the Category Lead; else the CPO |
-| R2 | Decide a rate, fee or configured value, inside the risk role's range | the Product Owner | 1 working day from A6's flag | as R1 |
-| R3 | Launch, or launch a new version | the Product Owner | 1 working day from a complete readiness record | as R1 |
+| R2 | Decide a rate, fee or configured value, inside the risk role's range | the Product Owner | 1 working day from A6's flag | a deputy holding R2; else the Category Lead; else the CPO |
+| R3 | Launch, or launch a new version | the Product Owner | 1 working day from a complete readiness record | a deputy holding R3; else the Category Lead; else the CPO |
 | R4 | Open or retire a product or a team; open or close a Category Lead or deputy seat | the CPO | 1 working day | the CPO's COS (A1), where the CPO has handed it R4; else the human hub |
 | R5 | Approve a package or text that departs from the source of record | the governing seat, or the seat it names | 2 working days | none by default; the row stays pending with its next date; the governing seat may name one |
 | R6 | Approve a PRD, a UI/UX PRD or a design as delivered, after seeing it | the governing seat for what §4.5 keeps with it; the CPO for the rest, handed to its COS (A1) | 1 working day from the frozen pair | the CPO, through its COS (A1); where A1 cannot decide (§4.3), the CPO itself |
@@ -248,7 +249,7 @@ Every time below is the mother's default, held as data the CPO sets (§8). Elaps
 | Process | Accountable | Trigger | Output | Default time | If late |
 |---|---|---|---|---|---|
 | P-01 Raw idea to team | B1 | any request | a decided idea, or a checked Product Brief | screen 2 working days; shaping and foundations together 5 (prototype included); A9 and A6 check 1, in parallel; decision 1 | to the CPO |
-| P-02 Opening a team | A12 | R4 | a working team | allocation asked the same day; active 1 working day after allocation; a failed shadow test back to A12 with a CPO row | to the CPO after 3 working days without allocation |
+| P-02 Opening a team | A12 | R4 | a working team | allocation asked the same day; active 1 working day after allocation, once the Owner has signed its starter rules; a failed shadow test, or starter rules left unsigned, back to A12 with a CPO row | to the CPO after 3 working days without allocation |
 | P-03 Building and changing | E2 | a decided need, or a notice from A1 or A3 | a delivered, accepted, launched version | drafting by change class; review round 1 working day; build to the dates agreed on the line; acceptance 2 working days from demo; retest 1 | to the Owner; a missed build date to the CPO through A8 |
 | P-04 Design final | C1 | a team draft | a final design | review and fixes 1 working day; 4 hours when launch-critical | to the UX Lead |
 | P-05 Content and public text | the writing agent | a need to tell customers | published content | templates at once; new text 1 working day, both checks in parallel | to the Owner |
@@ -277,7 +278,7 @@ Every time below is the mother's default, held as data the CPO sets (§8). Elaps
 1. A2 adds the portfolio row, and a category row for a new category.
 2. A12 builds the team from the pattern: twelve agents with their cards and sensitivity classes; the Owner's starter standing rules as drafts, a pause and suspension rule among them (P-16); the switched-on optional duties; the S1 to S3 customer-update templates, passed by A10; the team's folder; and the COS of every human seat the team opens. It asks the engine division for the team's allocation.
 3. The agents run their fixed tests in shadow. A9 checks the evidence and each agent's sensitivity class against its duties; a failure returns to A12.
-4. The Owner signs its standing rules and any delegation (R8). The team goes active; A4 and A5 add it to their watch.
+4. The Owner signs its standing rules and any delegation (R8). The team goes active only then; while they are unsigned it stays inactive and the row goes to the CPO. A4 and A5 add it to their watch.
 
 ### P-03 · Building and changing a product
 1. E2 writes the version through the organisation's PRD method and change classes, with its assurance requirements and obligations; E6's AI candidates and E4's evidence go in only through E2. A notice from A1 or A3 is answered here: "no impact" with its reason, or the change by the effective date.
@@ -348,7 +349,7 @@ Every time below is the mother's default, held as data the CPO sets (§8). Elaps
 ### P-14 · Agent quality
 1. A11 measures every agent except itself monthly, from its fixed test and its outcomes, and finds root causes; A4 measures A11.
 2. Changes are drafted as §5.6 says.
-3. A9 tests every change before it applies, except changes to A9, which A4 tests; a rule change is signed by its seat (R8); A12 applies a passed change the next working day.
+3. A9 tests every change before it applies, except changes to A9, which A4 tests; A12 applies a passed card change the next working day, and a passed rule change the next working day after its seat signs it (R8).
 
 ### P-15 · Retire or park
 1. A4 or the Owner proposes, naming the scope: an asset, a market, an entry or a team; A5 files the cross-impact on every dependent entry.
@@ -431,7 +432,7 @@ Every time below is the mother's default, held as data the CPO sets (§8). Elaps
 | The operations back office | E11 (configuration lifecycle, operating cases); E10 (the Case Owner); A2 (approval records); records read only by A4 and E12 | configured values and their read-backs; formal complaints; approval records; the records performance is computed from |
 | The risk role | A1 for policy; E5 and A6 for ranges | the risk and exposure ranges every economic value sits in |
 | The source of record and its editors | A3; the writing agents for filings | the source by reference; amendment lines; explainers filed into it |
-| The public-text approver | the writing agents, in parallel with A10 | approval of text for the public |
+| The public-text approver | the writing agents, in parallel with A10 | approval of text for the public: a signed template with bounded variables at once, new text within the organisation's time (P-05) |
 | The assurance executors (security, transaction integrity, privacy, abuse) | E2 and E10 for requirements and reports; E11 for read-backs, verified by E12 | executors named in every package; read-backs before launch and at closure |
 | Legal and finance | A1; E5 and A6 for cost actuals | obligations with effective dates; actual costs for the P&L |
 | The board of the company concerned | A2, prepared | matters the matrix reserves to it |
