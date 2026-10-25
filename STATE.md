@@ -13,5 +13,6 @@
 | Organisation names | `no-org-names` scanner of `49GAION-protocol`, 16 October 2026: **0 hits** |
 | The product line | no Library contract yet; field lists in blueprint Annex A; a contract drafted in `upstream/PROPOSALS.md`, item 1 |
 | Instances | one, the first instance, in its own private home |
+| Readings | `49GAION/DR-0041`, the complete definition of 49GAION: this repository is read with it (`decisions/DR-0004`), unreleased |
 
 *Powered by 49GAION*
