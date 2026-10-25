@@ -51,6 +51,8 @@ blueprint:
 
 **Where this blueprint stands.** No instance has run. The part card is `DRAFT`, with `last_result` `NOT_RUN` (Protocol §18, item 12). The product line to the engineering AIOC has no Library contract yet; Annex A gives its field lists, and a contract is drafted upstream (`upstream/PROPOSALS.md`, item 1). The decisions only a human seat can take are listed once, in §13.
 
+> **Reading (49GAION DR-0041).** The complete definition of 49GAION, approved by its governing seat on 25 October 2026, is `49GAION-FRAMEWORK.md` in `github.com/49g-holding/49GAION`. Where this repository differs from it, the definition governs, and this text is read with it. Every rule here that names `[ORG]AIOC-OCO` or the human hub reads as the Top Management Group, the hub of the operation, human and AI. The panel is the organisation's own code interface, and the AI chat workspace is its back office. The readings are in [`decisions/DR-0004`](../decisions/DR-0004-the-readings-of-dr-0041.md). Nothing here is removed.
+
 ---
 
 ## 0. Identity and lineage
