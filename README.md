@@ -4,6 +4,8 @@ The mother repository of the Library part **49GAION Product Core**. In an `[ORG]
 
 > **Reading (49GAION DR-0041).** The complete definition of 49GAION, approved by its governing seat on 25 October 2026, is `49GAION-FRAMEWORK.md` in `github.com/49g-holding/49GAION`. Where this repository differs from it, the definition governs, and this text is read with it. Every rule here that names `[ORG]AIOC-OCO` or the human hub reads as the Top Management Group, the hub of the operation, human and AI. The panel is the organisation's own code interface, and the AI chat workspace is its back office. The readings are in [`decisions/DR-0004`](decisions/DR-0004-the-readings-of-dr-0041.md). Nothing here is removed.
 
+> **Reading (49GAION DR-0048, DR-0049; `decisions/DR-0005`).** Only AIOCs and HOAC positions: every human place here is a position, and who holds it, and how, is the organisation's own mechanism, outside the system. The acting filler, deputies of human seats and `appoint-acting-filler` are withdrawn.
+
 Product Core is the organisation's one product division, shared by every company it runs. It owns the what and the why of every product for the product's whole life; the engineering AIOC owns the how and the when. Its head office is the CPO Office. Each product has one team for every stage of its life: one owner position and AI members by function (Protocol §18).
 
 The one-page summary is at the top of the blueprint.

@@ -126,7 +126,7 @@ Every other decision named in this mandate (an Owner's decision on a version, a 
 - **The record.** Every act taken under a delegation is recorded as the seat's own act, naming the delegation and its version, applied by its COS. The COS never signs in its own name and never decides as an agent, so TEST-PC v1, case 42 holds: the decision in the record is the seat's, made in advance.
 - **Accountability.** The seat stays accountable for every act its COS takes. It sees each one on its daily brief, and can narrow or take back a delegation at any time, from the next act.
 - **Limits that no delegation crosses:**
-  - an act the law, a regulator or the source of record gives to a natural person stays with the person, and a two-person control keeps two different people;
+  - an act the law, a regulator or the source of record gives to a natural person stays with the position that person holds; where the law requires two different people for a control, meeting it is the organisation's own mechanism, outside the system;
   - a COS never decides on work it drafted or checked itself, and never replaces an independent check: the checks of §5.6 still run before it decides. Preparing a decision (gathering the work, its checks and a recommendation) is not drafting it: a COS may decide what it prepared;
   - a delegation never reaches another seat's acts: a COS acts only for the seat it serves;
   - a COS never signs or widens its own delegation or share: that part of R8 stays with the seat.

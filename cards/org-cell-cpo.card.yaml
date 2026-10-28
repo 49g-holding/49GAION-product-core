@@ -24,7 +24,6 @@ authority_scope:
   - create-or-install-unit
   - retire-unit
   - change-filler
-  - appoint-acting-filler
   - delegate-authority
   - change-fixed-test-or-threshold
   - restart-stopped-unit
