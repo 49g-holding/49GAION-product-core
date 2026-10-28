@@ -7,7 +7,7 @@ blueprint:
   organisation: "<organisation>"          # filled in each organisation's own copy
   type: "structural"
   org_aion: "[ORG]AION"
-  blueprint_version: "v0.1.1"
+  blueprint_version: "v0.1.2"
   status: "draft"
   template:
     name: "49GAION AIOC Blueprint Template"
@@ -25,7 +25,7 @@ blueprint:
     functional: ["Product Intake", "Portfolio and Categories", "Research and Opportunity", "PRD and Feature Packages", "Design", "Partnership in Build", "Launch", "Run", "Explainers and Supporting Documents", "Product Review, Refresh or Retire", "Shared Standards"]
 ```
 
-# Blueprint · `[ORG]AIOC-PC` · Product Core · `v0.1.1`
+# Blueprint · `[ORG]AIOC-PC` · Product Core · `v0.1.2`
 
 **Draft, 16 October 2026. v0.1.1, 19 October 2026: the Chief of Staff takes its COS code `[ORG]CELL-COSPC` (`decisions/DR-0002`).** The mother blueprint of the Library part 49GAION Product Core, for any organisation (`49GAION/DR-0024`; `decisions/DR-0001`). It sets the structure stated in the Protocol section Product Core (§18) and the part card `product-core.part-card.json` v1 into the form of the 49GAION AIOC template: its card, its positions, its Cells and Pods, and each capability in four parts. Every rule rests on a 49GAION text, cited by section, or is new in this blueprint and marked **New**. It holds no organisation's data: no product, no category, no price, no company. Each organisation fills its own copy (§0, §2.1). Nothing here has run. Every fixed test reads `NOT_RUN`.
 
@@ -74,7 +74,7 @@ blueprint:
 | Made from | the Library part 49GAION Product Core, part card `v1` (DRAFT), and the Protocol section of the same name (§18), proposed on 15 October 2026 |
 | Template | 49GAION AIOC Blueprint Template `v1.5.0` at `1abae80`, with the unreleased `v1.6.0` additions |
 | Mother | 49GAION Product Core, part card `v1`. This text is its mother blueprint, held in the part's mother repository `github.com/49g-holding/49GAION-product-core` and pinned in the Library register (`49GAION/DR-0024`) |
-| Blueprint version and status | `v0.1.1` · draft |
+| Blueprint version and status | `v0.1.2` · draft |
 | Accountable seat (`[ORG]HOAC-ACS`) | the Chief Product Officer position, `[ORG]CELL-CPO`. Who holds it is the organisation's own mechanism, outside the system (Standard §1.1, item 9; §5.2, Position Principle) |
 | Reports to | the Cell carrying `[ORG]HOAC-TM` |
 | Writing repository | `<org>aioc-pc`, private where it holds the organisation's products, categories and rates, plus `-records` for the AIOC's run records and `-records-restricted` for records that touch personal data (Naming Standard R9) |
@@ -97,7 +97,7 @@ card:
   inner_units: ["[ORG]CELL-CPO", "[ORG]CELL-COSPC", "[ORG]POD-PCCO", "[ORG]POD-EPT"]
   type: "structural"
   org_aion: "[ORG]AION"
-  card_version: "v0.1.1"
+  card_version: "v0.1.2"
   input_door: "Chief of Staff"
   wake: { method: "queue", verified: false }
   receives:
@@ -140,7 +140,7 @@ card:
   anatomy:
     panel: { health: { tests: true, metrics: ["stuck", "returned", "late", "products by stage", "packages refused by the auditor", "questions open from engineering", "acceptances open", "rates changed", "rates reversed", "explainers missing", "reviews held"] } }
     back_office: { converses_with_humans: true, hosts: ["Chief of Staff", "Office"], protocol_traffic: true }
-    definition: { location: "<org>aioc-pc, blueprint/PC-BLUEPRINT.md", version: "v0.1.1" }
+    definition: { location: "<org>aioc-pc, blueprint/PC-BLUEPRINT.md", version: "v0.1.2" }
     delivery: { rollback: "one-click" }
     connectors:
       - { role: "the product line to the engineering AIOC", connector: "<engineering AIOC> product line port", access_managed_in: "panel" }   # the grant is signed at the tool gateway as connect-external-port
@@ -149,10 +149,10 @@ card:
       - { role: "product signals", connector: "<signal source>", access_managed_in: "panel" }
     gateway: { metering_id: "<per-AIOC metering id>" }
   full_name: "Product Core"
-  version: "0.1.1"
-  lineage: { id: "[ORG]AIOC-PC", version: "0.1.1", relation: "original" }
+  version: "0.1.2"
+  lineage: { id: "[ORG]AIOC-PC", version: "0.1.2", relation: "original" }
   lifecycle_state: "designed"
-  blueprint_version: "v0.1.1"
+  blueprint_version: "v0.1.2"
   template_version: "v1.5.0"
   accountable_to: "[ORG]CELL-TMS"         # example code of the Cell carrying [ORG]HOAC-TM (Naming Standard R15); never a Cell inside this AIOC
   top_cell: "[ORG]CELL-CPO"
@@ -921,7 +921,7 @@ One dated line per lesson, each written without an organisation's details. Nothi
 | H-04 | **Legal.** Each product's terms, including whether a new rate reaches existing deals; review of customer-facing explainers before they are seen outside | the position the organisation names for legal review | no launch with open terms (case 29) |
 | H-05 | **People.** The owner position of each new product (`create-or-install-unit`, `change-filler`) | the Chief Product Officer | the product has no team |
 | H-06 | The engineering AIOC's code and the product line's grant (`connect-external-port`) | the Cell carrying `[ORG]HOAC-TM` | no package is sent |
-| H-07 | Approve this blueprint `v0.1.1`, with the exceptions of §11, as the design of `[ORG]AIOC-PC` | the human hub | it stays a draft; nothing is installed |
+| H-07 | Approve this blueprint `v0.1.2`, with the exceptions of §11, as the design of `[ORG]AIOC-PC` | the human hub | it stays a draft; nothing is installed |
 | H-08 | The complaints path of the organisation, which the Run capability routes into | the position the organisation names | complaints are recorded and held |
 
 ## 14. Change log
@@ -930,6 +930,7 @@ One dated line per lesson, each written without an organisation's details. Nothi
 |---|---|---|---|---|
 | v0.1.0 | 2026-10-16 | First blueprint of `[ORG]AIOC-PC`, the mother blueprint of 49GAION Product Core, from the Protocol section Product Core (§18) and the part card v1; TEST-PC v1 (48 cases, `NOT_RUN`), keeping TEST-PRODUCT-CORE v1 cases 1 to 13 unchanged; the CPO Office and the product team pattern; the field lists of the package, the rate record and the portfolio register (`decisions/DR-0001`; `49GAION/DR-0024`) | v1.5.0 at `1abae80` | this repository, pull request #1 |
 | v0.1.1 | 2026-10-19 | The Chief of Staff takes its COS code: `[ORG]CELL-PCCS` → `[ORG]CELL-COSPC` (Naming Standard R16, `49GAION/DR-0028`; `decisions/DR-0002`). The old code is retired and kept in the card's lineage; the part test is renamed; nothing else changes | v1.5.0 at `1abae80` | this repository's pull request for this version |
+| v0.1.2 | 2026-10-29 | Released on the governing seat's word (`decisions/DR-0006`): it carries the records since v0.1.1, `decisions/DR-0004`, `decisions/DR-0005`; positions only (`49GAION/DR-0048`, `DR-0049`). Every card takes v0.1.2; the Protocol pin moves to the Operating Protocol `v2.1.0`. No other rule changes. |
 
 ---
 
@@ -990,8 +991,8 @@ The parts inside this AIOC (`docs/CELLS-AND-PODS.md` of `49GAION-aioc`). The rol
 parts:
   defaults:
     accountable_to: "[ORG]CELL-CPO"
-    card_version: "v0.1.1"
-    version: "0.1.1"
+    card_version: "v0.1.2"
+    version: "0.1.2"
     lifecycle_state: "designed"
     test_version: "v1"
     test_owner: "[ORG]CELL-CPO"
@@ -1214,4 +1215,4 @@ Which categories an organisation has, and what each holds, is the organisation's
 10. Let an AI decide, accept or sign.
 11. Put an organisation's products, categories or rates into the Library.
 
-*`[ORG]AIOC-PC` mother blueprint v0.1.1 · Powered by 49GAION*
+*`[ORG]AIOC-PC` mother blueprint v0.1.2 · Powered by 49GAION*
