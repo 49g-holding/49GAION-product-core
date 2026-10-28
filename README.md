@@ -15,7 +15,7 @@ The one-page summary is at the top of the blueprint.
 | Path | What it is |
 |---|---|
 | [`MANDATE.md`](MANDATE.md) | the mandate, `v0.2.0`, proposed: the organisation (the CPO Office, Discovery, the Design and Brand Studio, the categories, a team of twelve agents per product), the 47 duties, the sixteen processes, the human acts and how a seat hands them to its COS, default times and stand-ins, making any position human, and the paths with the human hub, the engineering AIOC, the engine division and the marketing division. Where it differs from the blueprint, it governs (`decisions/DR-0003`) |
-| [`blueprint/PC-BLUEPRINT.md`](blueprint/PC-BLUEPRINT.md) | the mother blueprint, `v0.1.1`, on the 49GAION AIOC template |
+| [`blueprint/PC-BLUEPRINT.md`](blueprint/PC-BLUEPRINT.md) | the mother blueprint, `v0.1.2`, on the 49GAION AIOC template |
 | [`tests/TEST-PC.md`](tests/TEST-PC.md) | the fixed test, TEST-PC v1: 48 cases, every one `NOT_RUN`, keeping the Library's TEST-PRODUCT-CORE v1 as cases 1 to 13 |
 | [`cards/`](cards/) | the unit cards of its Pods and Cells, and the bot identity cards, generated from blueprint §17 |
 | [`decisions/`](decisions/) | the decision records of this repository |
