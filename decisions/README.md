@@ -10,5 +10,6 @@ One `DR-####` file per decided subject, numbered in order. A record file never c
 | [`DR-0002`](DR-0002-cos-code.md) | 2026-10-19 | Product Core mother v0.1.1: the Chief of Staff takes its COS code | in force on merge |
 | [`DR-0003`](DR-0003-the-mandate-v0.2.0.md) | 2026-10-20 | Product Core mandate v0.2.0: the organisation, its processes and its paths | in force on merge |
 | [`DR-0004`](DR-0004-the-readings-of-dr-0041.md) | 2026-10-25 | Product Core mother: the readings of 49GAION/DR-0041, the complete definition | in force on merge |
+| [`DR-0005`](DR-0005-positions-only.md) | 2026-10-28 | Product Core mother: positions only, brought into line with 49GAION/DR-0048 and DR-0049 | in force on merge |
 
 *Powered by 49GAION*

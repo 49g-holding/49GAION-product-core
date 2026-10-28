@@ -75,7 +75,7 @@ blueprint:
 | Template | 49GAION AIOC Blueprint Template `v1.5.0` at `1abae80`, with the unreleased `v1.6.0` additions |
 | Mother | 49GAION Product Core, part card `v1`. This text is its mother blueprint, held in the part's mother repository `github.com/49g-holding/49GAION-product-core` and pinned in the Library register (`49GAION/DR-0024`) |
 | Blueprint version and status | `v0.1.1` · draft |
-| Accountable seat (`[ORG]HOAC-ACS`) | the Chief Product Officer position, `[ORG]CELL-CPO`. Who occupies it is top management's own mechanism (Standard §1.1, item 9; §5.2, Position Principle) |
+| Accountable seat (`[ORG]HOAC-ACS`) | the Chief Product Officer position, `[ORG]CELL-CPO`. Who holds it is the organisation's own mechanism, outside the system (Standard §1.1, item 9; §5.2, Position Principle) |
 | Reports to | the Cell carrying `[ORG]HOAC-TM` |
 | Writing repository | `<org>aioc-pc`, private where it holds the organisation's products, categories and rates, plus `-records` for the AIOC's run records and `-records-restricted` for records that touch personal data (Naming Standard R9) |
 | Code project | none: Product Core writes no code and no technical design (Protocol §18, item 6.4) |
@@ -234,12 +234,12 @@ The blueprint writes `[ORG]` for the organisation's prefix, as central texts do 
 
 ## 3. Positions
 
-Every human position is a HOAC position, a legal persona; no natural person exists in the system (Standard §1.1, item 9; `49GAION/DR-0013`, `DR-0015`). Two positions are two parties. Who occupies a position, and how, is top management's own mechanism, never in this file.
+Every human position is a HOAC position, a legal persona; no natural person exists in the system (Standard §1.1, item 9; `49GAION/DR-0013`, `DR-0015`). Two positions are two parties. Who holds a position, and how, is the organisation's own mechanism, outside the system, never in this file.
 
-| Position (standard title) | Purpose | Reports to | Run today by | Deputy |
+| Position (standard title) | Purpose | Reports to | Run today by | Cover |
 |---|---|---|---|---|
-| Chief Product Officer (`[ORG]CELL-CPO`, `[ORG]HOAC-ACS`) | leads the CPO Office; accountable for every product and every product team; creates and retires product teams | the Cell carrying `[ORG]HOAC-TM` | a person (holders register) | an acting filler appointed under `appoint-acting-filler` |
-| Product owner, one per product (pattern `[ORG]CELL-EPO`, `[ORG]HOAC-ACS`) | the only job is one product, for its whole life; decides that product's what and why, its stage moves, its acceptance and its rates | the Chief Product Officer | a person (holders register) | an acting filler appointed by the Chief Product Officer |
+| Chief Product Officer (`[ORG]CELL-CPO`, `[ORG]HOAC-ACS`) | leads the CPO Office; accountable for every product and every product team; creates and retires product teams | the Cell carrying `[ORG]HOAC-TM` | a human position | the organisation's own mechanism, outside the system |
+| Product owner, one per product (pattern `[ORG]CELL-EPO`, `[ORG]HOAC-ACS`) | the only job is one product, for its whole life; decides that product's what and why, its stage moves, its acceptance and its rates | the Chief Product Officer | a human position | the organisation's own mechanism, outside the system |
 | Product Core Chief of Staff (`[ORG]CELL-COSPC`) | this AIOC's voice to its HOAC seats; the door of every input; holds the product line | the Chief Product Officer | an agent | the Chief Product Officer holds its work |
 | The AI Cells of the CPO Office and of each product team (§17) | each performs one role card | the Chief Product Officer, or the team's product owner | an agent | its Pod's top Cell holds its work |
 
@@ -574,7 +574,7 @@ TEST-PC v1, cases 23, 24 · result `NOT_RUN`
 |---|---|
 | Name | Product owner (acceptance) and Product Manager (answers) |
 | Position and seat | `[ORG]CELL-EPO` and `[ORG]CELL-EPM`; the owner position is a HOAC position, accountable to the Chief Product Officer |
-| Performed by | the owner position: a person (holders register); the Product Manager: an agent |
+| Performed by | the owner position: a human position, who holds it being the organisation's own mechanism, outside the system; the Product Manager: an agent |
 | Purpose | answers and acceptance for one product |
 | Authority limits | the owner position alone: decide answers, accept criteria; the agent alone: draft; never: accept by an AI, speak to a builder |
 | Write location | the Work Item record |
@@ -915,7 +915,7 @@ One dated line per lesson, each written without an organisation's details. Nothi
 
 | ID | Decision | Who decides | Until decided |
 |---|---|---|---|
-| H-01 | Who occupies the Chief Product Officer position and each owner position, and how | top management's own mechanism; this AIOC never sees it (Standard §1.1, item 9) | acts that need the position's signature wait |
+| H-01 | Who holds the Chief Product Officer position and each owner position, and how | the organisation's own mechanism, outside the system; this AIOC never sees it (Standard §1.1, item 9) | acts that need the position's signature wait |
 | H-02 | The organisation's products and categories (its own record, slot `categories_record`) | the Chief Product Officer, under the Requesting Authority's direction | no product team is created |
 | H-03 | **Money.** Whether a rate change is also a money commitment (`commit-money`), its limits per product, and who signs it (slot `rate_signers`) | the Cell carrying `[ORG]HOAC-TM`, with the Requesting Authority | every rate change is signed by the owner position only, and none above the limits the organisation has set elsewhere is written |
 | H-04 | **Legal.** Each product's terms, including whether a new rate reaches existing deals; review of customer-facing explainers before they are seen outside | the position the organisation names for legal review | no launch with open terms (case 29) |
@@ -1009,7 +1009,7 @@ parts:
       accountable_to: "[ORG]CELL-TMS"       # example code of the Cell carrying [ORG]HOAC-TM
       entity: "<entity>"
       authority_scope:
-        decision_types: ["create-or-install-unit", "retire-unit", "change-filler", "appoint-acting-filler", "delegate-authority", "change-fixed-test-or-threshold", "restart-stopped-unit"]
+        decision_types: ["create-or-install-unit", "retire-unit", "change-filler", "delegate-authority", "change-fixed-test-or-threshold", "restart-stopped-unit"]
         entity: "<entity>"
         expires: "2027-10-15"                # placeholder; each organisation sets it
         authority: "delegated"
