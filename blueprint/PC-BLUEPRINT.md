@@ -581,7 +581,7 @@ TEST-PC v1, cases 23, 24 · result `NOT_RUN`
 | Reports to | the Chief Product Officer |
 | Escalation | to the Chief Product Officer |
 | Tools and access | the product line, through the Panel |
-| Deputy and cover | an acting owner appointed by the Chief Product Officer |
+| Deputy and cover | the organisation's own mechanism, outside the system; while the position has no credential in force, its matters go up the accountability path (`49GAION/DR-0049`, `DR-0052`) |
 | Fixed test and score | TEST-PC-EPO v1, TEST-PC-EPM v1 |
 | Card version and status | v0.1.0 · draft |
 #### Fixed test

@@ -1,7 +1,8 @@
 """Generate and check the cards of [ORG]AIOC-PC from its blueprint.
 
 Adapted from the card generator of the Delivery and Implementation mother (v0.1.2),
-github.com/49g-holding/49aioc-di, tools/make_cards.py. Added: a Pod may carry a HOAC label with
+now github.com/49g-holding/49GAION-delivery-and-implementation (v0.1.2 is in the archived
+github.com/49g-holding/49aioc-di), tools/make_cards.py. Added: a Pod may carry a HOAC label with
 its label_holder; a Cell may name its own accountable human position for its bot card.
 
 The blueprint governs. This script reads the card data block of blueprint §17 (the YAML
