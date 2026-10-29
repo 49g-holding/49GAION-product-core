@@ -1,8 +1,8 @@
 # Contributing
 
-**49GAION Product Core, mother blueprint `v0.1.2` · 29 October 2026.**
+**49GAION Product Core, mother blueprint `v0.1.3` · 29 October 2026.**
 
-1. **One change, one pull request**, reviewed by someone other than its writer, and merged by the governing seat of 49GAION.
+1. **One change, one pull request**, reviewed by a party other than its writer, and merged by the governing seat of 49GAION.
 2. **No organisation's data.** No organisation's name, host, code, product, category, price or company is ever written here (Naming Standard R9; Protocol §18, item 4). An instance keeps its own values in its own repositories.
 3. **Positions, never people.** No person's name, initials or personal ID in any file.
 4. **Cite every rule** to its source: a 49GAION text by section and version, or mark it **New**. Never invent a fact, a version, a number or an appointment. `NOT_RUN` is never PASS.
