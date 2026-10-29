@@ -1,6 +1,6 @@
 # Contributing
 
-**49GAION Product Core, mother blueprint `v0.1.2` · 29 October 2026.**
+**49GAION Product Core, mother blueprint `v0.1.3` · 29 October 2026.**
 
 1. **One change, one pull request**, reviewed by a party other than its writer, and merged by the governing seat of 49GAION.
 2. **No organisation's data.** No organisation's name, host, code, product, category, price or company is ever written here (Naming Standard R9; Protocol §18, item 4). An instance keeps its own values in its own repositories.

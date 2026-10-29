@@ -12,5 +12,6 @@ One `DR-####` file per decided subject, numbered in order. A record file never c
 | [`DR-0004`](DR-0004-the-readings-of-dr-0041.md) | 2026-10-25 | Product Core mother: the readings of 49GAION/DR-0041, the complete definition | in force on merge |
 | [`DR-0005`](DR-0005-positions-only.md) | 2026-10-28 | Product Core mother: positions only, brought into line with 49GAION/DR-0048 and DR-0049 | in force on merge |
 | [`DR-0006`](DR-0006-release-v0-1-2.md) | 2026-10-29 | Product Core mother: release `v0.1.2`, carrying the records since `v0.1.1` | in force on merge |
+| [`DR-0007`](DR-0007-release-v0-1-3.md) | 2026-10-29 | Product Core mother: release `v0.1.3`, corrections under `49GAION/DR-0052` | in force on merge |
 
 *Powered by 49GAION*
