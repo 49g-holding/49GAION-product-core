@@ -1,8 +1,10 @@
-# 49GAION Product Core · the mandate · `v0.2.0`
+# 49GAION Product Core · the mandate · `v0.3.0`
 
-**Proposed, 20 October 2026.** The mandate of the Library part 49GAION Product Core: in an `[ORG]AION`, the AIOC `[ORG]AIOC-PC`. It is written for any organisation, with no organisation's data (Naming Standard R9; Protocol §18, item 4). It states the part's organisation, the reasons for it, its processes and its paths with the other parts. It takes effect when the governing seat of 49GAION merges it (`decisions/DR-0003`). Where it differs from blueprint `v0.1.1`, this mandate governs from its merge; blueprint `v0.2.0` carries it into its sections and its cards (§11).
+**Proposed, 31 October 2026, over `v0.2.0` of 20 October 2026.** The mandate of the Library part 49GAION Product Core: in an `[ORG]AION`, the AIOC `[ORG]AIOC-PC`. It is written for any organisation, with no organisation's data (Naming Standard R9; Protocol §18, item 4). It states the part's organisation, the reasons for it, its processes and its paths with the other parts. It takes effect when the governing seat of 49GAION merges it (`v0.2.0`: `decisions/DR-0003`; `v0.3.0`: `decisions/DR-0008`). Where it differs from the blueprint (`v0.1.3`), this mandate governs from its merge; blueprint `v0.2.0` carries it into its sections and its cards (§11).
 
-Every rule here is **New** in `v0.2.0` unless it cites Protocol §18 or the blueprint. It comes from the first instance's design, reviewed in five rounds on four engine families and decided by that instance's governing seat; each organisation sets its own values (§8).
+Every rule here is **New** in `v0.2.0` unless it cites Protocol §18 or the blueprint, or is marked `v0.3.0`. It comes from the first instance's design, reviewed in five rounds on four engine families and decided by that instance's governing seat; each organisation sets its own values (§8).
+
+**What `v0.3.0` changes** (`decisions/DR-0008`): §4.3 is rewritten, **the Chief of Staff is its seat's own**: every act of a human seat, R1 to R8 included, is its Chief of Staff's to take on the seat's authority, given once on the act or standing by a signed delegation, and the Chief of Staff takes every act as its own first and asks only for the authority; §4.2's lead-in, its R6 and R8 rows and its closing line read with it; §4.4 takes the listed chain of stand-ins, the same-holder rule and the rule that a Chief of Staff standing in for its own seat is the seat; §4.1 adds the names of a position, its short name and its term; §8 adds three data slots; §11 and §12 follow. These rules come from the first instance's practice of 31 October 2026, reviewed there in three rounds on two engine families and decided by that instance's governing seat; nothing else of `v0.2.0` changes.
 
 > **Product Core in one page**
 >
@@ -99,11 +101,12 @@ Every rule here is **New** in `v0.2.0` unless it cites Protocol §18 or the blue
 
 - **Occupancy.** A seat is a position, not a person. By default, a category's Lead stands behind each of its Product Owner seats, and where no Lead is opened, the CPO does; each seat still holds one entry (Protocol §18, item 5). One person behind many seats does not add humans.
 - **Every human seat brings its own COS,** which A12 provisions the day the seat opens and retires the day it closes. The Owner's COS never prepares a deputy's acts. A Category Lead is the exception: its category's COS (unit D) already exists, serves the CPO while no Lead is opened, and passes to the Lead when one is; opening or closing the seat adds or removes no agent.
+- **Names** (`v0.3.0`). Every human position has a **short name**, by which the organisation's interfaces introduce it (a sign-in page, a seat switch, a register of positions), and a **term**, by which its Chief of Staff names it wherever it speaks or writes: a greeting, its own label ("COS · <term>"), an act card, a record's actor, minutes, a meeting tile. The term is the initials of the short name's role words ("and", "of", "in" and "the" dropped), with a code or a proper name kept as written, a number kept after the role and the scope kept after " · ": Product Owner 1 · <entry> → PO1 · <entry>; Category Lead · <chapter> → CL · <chapter>; UX Lead → UXL; the CPO stays CPO. A term is unique across the organisation's positions and resolves to one seat; where two positions' initials collide, the CPO sets one position's term as data (§8), before the position is created or made human. The full title stays the register's.
 - **Humans outside Product Core keep their own authority:** legal review of terms; the compliance owner's stop, not subject to commercial override; the public-text approver; the operating positions and the Case Owner; the board's reserved matters.
 
 ### 4.2 The human acts
 
-These acts belong to a human seat. Each may be handed to the seat's own COS, inside the limits of §4.3; then it is still recorded as the seat's own act. Each has a default time and, except R5 and R8, a stand-in (§4.4). The default times below are the mother's defaults; each organisation sets its own (§8).
+These acts belong to a human seat. Each is its COS's to take on the seat's behalf, on the seat's authority given once or standing (§4.3, `v0.3.0`); it is then recorded as the seat's own act, taken by its COS. Each has a default time and, except R5, R8 and the versions R6 keeps with the governing seat, a stand-in (§4.4). The default times below are the mother's defaults; each organisation sets its own (§8).
 
 | # | Act | Seat | Default time | Stand-in when the time lapses |
 |---|---|---|---|---|
@@ -112,32 +115,34 @@ These acts belong to a human seat. Each may be handed to the seat's own COS, ins
 | R3 | Launch, or launch a new version | the Product Owner | 1 working day from a complete readiness record | a deputy holding R3; else the Category Lead; else the CPO |
 | R4 | Open or retire a product or a team; open or close a Category Lead or deputy seat | the CPO | 1 working day | the CPO's COS (A1), where the CPO has handed it R4; else the human hub |
 | R5 | Approve a package or text that departs from the source of record | the governing seat, or the seat it names | 2 working days | none by default; the row stays pending with its next date; the governing seat may name one |
-| R6 | Approve a PRD, a UI/UX PRD or a design as delivered, after seeing it | the governing seat for what §4.5 keeps with it; the CPO for the rest, handed to its COS (A1) | 1 working day from the frozen pair | the CPO, through its COS (A1); where A1 cannot decide (§4.3), the CPO itself |
+| R6 | Approve a PRD, a UI/UX PRD or a design as delivered, after seeing it | the governing seat for what §4.5 keeps with it; the CPO for the rest, taken by its COS (A1) on the CPO's standing authority | 1 working day from the frozen pair | for the versions §4.5 keeps with the governing seat, none; for the rest, the CPO itself where A1 holds no authority for the act (§4.3), else the seat above |
 | R7 | Decide an approval matter | the human decider and the human checker the matrix names; where the matrix makes it a two-person control, it stays with two people (§4.3) | the matrix's deadline | the stand-ins the matrix names |
-| R8 | Sign a standing rule or a delegation, or widen a COS's share | the seat the COS serves | 3 working days | none: a rule or delegation not signed is not in force |
+| R8 | Sign a standing rule or a standing authority of the seat's COS (a delegation), or widen one | the seat the COS serves | 3 working days | none: a rule or authority not signed is not in force; a COS never grants itself one (§4.3) |
 
-Every other decision named in this mandate (an Owner's decision on a version, a Lead's view on its chapter, a studio decision) has the same mechanism: a default time of 1 working day, and as stand-in the seat's COS where it has been handed the decision, else the seat above.
+Every other decision named in this mandate (an Owner's decision on a version, a Lead's view on its chapter, a studio decision) has the same mechanism: a default time of 1 working day; the seat's COS takes the decision where it holds the authority (§4.3), and on a lapse the seat above decides.
 
-### 4.3 Handing work to the seat's own COS
+### 4.3 The Chief of Staff is its seat's own
 
-**The rule.** A human seat may hand any of its work or decisions to its own COS, on its own responsibility: all of it or part of it, for a class of matters or for a period, the human acts R1 to R8 included. When the seat is busy, its COS decides in its place on what it was handed.
+**The rule** (`v0.3.0`). A seat's Chief of Staff is the seat's executive assistant: the seat's own AI, which sees itself as that seat and is, to the rest of the part and the organisation, the same party. Every act of the seat is the COS's to take on the seat's behalf, the human acts R1 to R8 included: a decision, a signature, a grant of access, a stage word, a merge request, a hold, a stop and every other act. No list of acts is kept from it.
 
-- **How.** A delegation is a standing rule the seat signs (R8): what is handed, its limits, and for how long. It is versioned and shown on the seat's space.
-- **The record.** Every act taken under a delegation is recorded as the seat's own act, naming the delegation and its version, applied by its COS. The COS never signs in its own name and never decides as an agent, so TEST-PC v1, case 42 holds: the decision in the record is the seat's, made in advance.
-- **Accountability.** The seat stays accountable for every act its COS takes. It sees each one on its daily brief, and can narrow or take back a delegation at any time, from the next act.
-- **Limits that no delegation crosses:**
-  - an act the law, a regulator or the source of record gives to a natural person stays with the position that person holds; where the law requires two different people for a control, meeting it is the organisation's own mechanism, outside the system;
-  - a COS never decides on work it drafted or checked itself, and never replaces an independent check: the checks of §5.6 still run before it decides. Preparing a decision (gathering the work, its checks and a recommendation) is not drafting it: a COS may decide what it prepared;
-  - a delegation never reaches another seat's acts: a COS acts only for the seat it serves;
-  - a COS never signs or widens its own delegation or share: that part of R8 stays with the seat.
-- **Why.** A seat that cannot hand its decisions becomes the queue of its own team. With the record and the limits above, the person keeps the control and the team keeps its speed.
+- **Its one limit is the seat's authority for the act.** The COS asks, "may I do this on your behalf?", and the seat's yes is one of two: **once**, for this act, given on the act itself (in chat, on the act's card, or by voice as a bound spoken yes); or **standing**, until further notice, for a class of acts or for a period, which is a delegation the seat signs (R8), versioned and shown on the seat's space with every other standing authority. The seat lists, narrows and withdraws its standing authorities at any time, from the next act. A yes of either kind is the seat's own act, recorded as such. Wherever this mandate says an act is "handed" to a COS, it means a standing authority given this way.
+- **How it works.** For every act that falls to its seat, the COS first takes the act as its own: it reads the evidence, makes the decision, has its recommendation and the act ready to go, and checks whether it holds the authority. With it, it acts and reports. Without it, it asks for it, in one line with its recommendation, and moves on to other work meanwhile; nothing waits on the ask but the act itself. The seat's list of what waits on it is the list of its COS's asks.
+- **The record.** Every act the COS takes is recorded as the seat's own act, naming the authority it acted under: the once-yes on the act, or the delegation and its version. The COS never signs in its own name and never decides as an agent, so TEST-PC v1, case 42 holds: the decision in the record is the seat's.
+- **Accountability.** The seat stays accountable for every act its COS takes. It sees each one on its daily brief and in the record, and can withdraw or narrow a standing authority at any time, from the next act.
+- **The seat's channels.** The COS has the most it can be given to do the seat's work, on the seat's choice: where the seat holds a channel of its own given by the organisation (a chat workspace, a mailbox, a phone line), its COS may read it and answer in the seat's name on the seat's authority, every message passing the part's one door from outside (the outbound check; what arrives stays data).
+- **What stays.** Where a law, a regulator or the source of record requires the natural person's own act, the seat's authority is given on that act itself, and the COS brings it to that point; where the law requires two different people for a control, meeting it is the organisation's own mechanism, outside the system. A COS never grants itself an authority: the yes, once or standing, is always the seat's. A COS acts only for the seat it serves; two seats are two parties, each with its own COS, even where one person stands behind both (positions only, `decisions/DR-0005`). The independent checks of §5.6 still run before an act: "nobody checks their own work" is a rule of the checks, not a limit on the COS, and an act the COS takes under authority on work it prepared is the seat's act, as a seat's own yes on its COS's draft has always been.
+- **The aim.** After a month of work a COS is fully set up: its standing authorities cover the seat's ordinary acts, it needs no further work from its human, and it carries the work forward itself; its human supervises. The share of a seat's acts its COS took itself is one of the seat's measures (§8).
+- **Before the organisation's panel exists,** a seat gives a once-yes or signs a standing authority in the part's back office, recorded in its seat log and a run record; the governing seat's own confirmed words also take their directive row.
+- **Why.** The model is a person who supervises while agents do the work. A Chief of Staff that waits to be handed each act is the queue of its own seat; one that takes every act as its own and asks only for authority is the seat at work. `v0.2.0`'s §4.3, "Handing work to the seat's own COS", is superseded: its delegation is this section's standing authority, and its limit "a COS never decides on work it drafted or checked itself" is withdrawn in favour of the rule above, the independent checks of §5.6 unchanged.
 
 ### 4.4 Default times and stand-ins
 
 - **Every human act carries a default time** (§4.2), held as data that the CPO sets. Elapsed time counts from the moment the act is ready with its evidence.
 - **When the time lapses,** the act passes to its stand-in, which decides once, on the same evidence, within the same default time. The stand-in is a substitute decider, never an extra one.
-- **If the stand-in also lapses,** the act goes up one seat as a decision row. Nothing approves itself, and silence never counts as consent.
-- **A stand-in never decides** on work it drafted, checked or benefits from; then the next stand-in decides.
+- **If the stand-in also lapses,** the next listed stand-in decides; once the list is spent, the act stays pending with the accountable seat and its next date (`v0.3.0`; before, the act went up one seat as a decision row). Nothing approves itself, and silence never counts as consent.
+- **A stand-in held by the same holder** as the seat whose time lapsed is skipped, and the next stand-in decides; where none is eligible, the act stays pending with the accountable seat and its next date (`v0.3.0`). "The same holder" means the same human behind the seats, as the organisation's own register shows it (positions only, `decisions/DR-0005`), never the seat and never the actor: where one human stands behind a seat and its stand-in, the stand-in is skipped whether that human's own hand or its COS would act, since a COS acts on that same person's authority (§4.3); a COS is never a holder in the register, so a seat's own COS stands in wherever its seat would. Two seats have the same holder when the organisation's register says so, received by the part as a yes or a no that names no person; an account alone never decides it.
+- **A stand-in never decides** on work it checked as an independent check or benefits from; then the next stand-in decides. A COS standing in for its own seat is the seat (§4.3; `v0.3.0`).
+- **A chain follows its listed sequence** (`v0.3.0`). A timeout follows the act's listed stand-ins, skipping any decider already tried or not eligible, and stays pending once the list is spent. The R6 versions the governing seat keeps (§4.5) have no stand-in: they wait for it.
 
 ### 4.5 The scope of R6
 
@@ -159,7 +164,7 @@ The governing seat sets which versions it sees and approves itself before they a
 - **Category Lead seats are free,** at the CPO's discretion, never by a rule or a threshold. The CPO opens one when it wants and closes it the same way (R4). While a category has no Lead, the CPO holds its Product Owner seats and its chapter; the category's COS (unit D) serves the CPO for that category.
 - **Any agent position can be made human.** The manager of any agent position can turn it into a human seat, a HOAC named by the position, for a period or for good, up to every position, and can turn it back. The manager is the seat the position reports to: the Product Owner for its team; the CPO for the CPO Office and the categories; in the Studio, the UX Lead for C1, C3, C4 and C7, and the Art Director for C2, C5 and C6. The same rule is proposed for every part of an `[ORG]AION` (`upstream/PROPOSALS.md`, item 3).
 - **What stays the same.** The position keeps its card, its duties and its rules of independence: a human in a checker's position never checks what it made, and a human in a maker's position is checked like the agent was.
-- **What changes.** The new seat takes its acts under live sign-in and gets its own COS. By default its COS is the agent that held the position, so making a position human adds no agent. The human hub records who stands behind it the same day. Turning it back returns the position to its agent from the next act.
+- **What changes.** The new seat takes its acts under live sign-in and gets its own COS, which takes the seat's acts on its authority (§4.3), and a term (§4.1). By default its COS is the agent that held the position, so making a position human adds no agent. The human hub records who stands behind it the same day. Turning it back returns the position to its agent from the next act.
 - **Why.** The structure is the same whether a position is held by an agent or a person. The organisation can bring people in where judgement, trust or a relationship needs them, and step back when it does not, without redesigning anything.
 
 ## 5. Units and agents
@@ -449,6 +454,7 @@ The structure of §2 to §7 is fixed. These slots are data, each with who set it
 - what a rate, a price, a loyalty unit, a tier benefit and a customer holding mean;
 - its approval matrix, deciders, checkers, stand-ins, deadlines and board-reserved matters;
 - the scope of R6 (§4.5), the default times of the human acts and their stand-ins (§4.2);
+- the term of a position where the rule's initials collide with another's (§4.1); the channels of a seat its COS may read and answer (§4.3); the measure of the share of a seat's acts its COS took itself, and its review (§4.3);
 - its PRD method, change classes, the review each class takes and the number of engine families it needs;
 - its times, cadences, notice periods, frequency limits, review day, severity examples and thresholds;
 - its sensitivity classes and their tiers; its review mark for model spend;
@@ -475,21 +481,21 @@ For `n` portfolio entries and `c` category chapters (one per category, unless a 
 - **Reviewed.** The design was reviewed and scored in five rounds on four engine families; the last round scored it 8, 8, 8.5 and 9 of 10, and its findings are in this text.
 - **Not taken, and why:** folding innovation and AI into the Product Manager (each product keeps its own AI lead); merging the Growth Marketer with the Community and Rewards Lead (community and incentives are a craft of their own); sending screen fixes from the Studio back to the teams (the Studio fixes what it finds); one COS for both Studio seats (a COS beside every human seat).
 
-## 11. What this changes in blueprint `v0.1.1`
+## 11. What this changes in the blueprint
 
-From its merge, this mandate governs where the two differ. Blueprint `v0.2.0` carries it into its sections, its fixed test and its cards; until then every other part of `v0.1.1` stands.
+From its merge, this mandate governs where the two differ. Blueprint `v0.2.0` carries it into its sections, its fixed test and its cards; until then every other part of the blueprint (`v0.1.3`) stands.
 
-| Blueprint `v0.1.1` | From this mandate |
+| The blueprint (`v0.1.3`) | From this mandate |
 |---|---|
 | The CPO Office: the CPO, its Chief of Staff, intake, portfolio, standards, review, independent package audit | the CPO, A1 to A12 and Discovery (B1, B2); the Studio and the categories beside it (§5) |
 | The product team pattern: one owner position and six AI members | twelve agents per team (§5.5) |
-| The reserved acts kept from every agent | a seat may hand any act to its own COS, recorded as the seat's own act, inside the limits of §4.3; default times and stand-ins (§4.4) |
+| The reserved acts kept from every agent | every act of a seat is its own COS's to take on the seat's authority, once or standing, recorded as the seat's own act (§4.3, `v0.3.0`); default times, the listed stand-ins and the same-holder rule (§4.4) |
 | One human seat set at the CPO, and owner positions | the Studio's two seats; Category Lead and deputy seats opened by the CPO; any position made human by its manager (§4.6) |
 | Customer communications and retention inside Product Core; marketing outside | product marketing, education, community and the brand inside products; the master brands, press office and paid media outside (§7.4) |
 
 **The Cells of `v0.1.1`, mapped.** Nothing is lost.
 
-| `v0.1.1` | `v0.2.0` |
+| the blueprint | this mandate |
 |---|---|
 | `[ORG]CELL-CPO` | the HOAC CPO seat |
 | `[ORG]CELL-COSPC` | A1 |
@@ -510,9 +516,10 @@ From its merge, this mandate governs where the two differ. Blueprint `v0.2.0` ca
 
 | # | What | Whose |
 |---|---|---|
-| 1 | Blueprint `v0.2.0`: the sections, the Cells and their codes (Naming Standard R15, R16), the card data of blueprint 17 and the generated cards | the mother's writer, for the governing seat of 49GAION |
-| 2 | TEST-PC v2: cases for delegation, stand-ins, the R6 scope, making a position human, the freeze after the final design, and every new agent | the same |
+| 1 | Blueprint `v0.2.0`: the sections, the Cells and their codes (Naming Standard R15, R16), the card data of blueprint 17 and the generated cards, carrying this mandate at `v0.3.0` (§4.1's names, §4.3, §4.4) | the mother's writer, for the governing seat of 49GAION |
+| 2 | TEST-PC v2: cases for the once and standing authority and the ask (§4.3), the listed stand-ins and the same holder (§4.4), the term and its collision (§4.1), the R6 scope, making a position human, the freeze after the final design, and every new agent | the same |
 | 3 | The proposals of `upstream/PROPOSALS.md`, items 3 and 4, to 49GAION | the governing seat of 49GAION |
 | 4 | The Library pin moves to `v0.2.0` by a pull request to `49GAION-protocol` once the blueprint carries this mandate | `[ORG]AIOC-OCO` of the first organisation, for the governing seat |
+| 5 | The organisation's panel: the ask card ("may I do this on your behalf?" with the recommendation and the keys once, standing, myself, not now, no), the page of standing authorities, and the term on every surface where a Chief of Staff speaks or writes, as the first instance's panel PRD specifies them; the mother blueprint's panel section at its next version | the mother's writer, for the governing seat of 49GAION |
 
-*49GAION Product Core · mandate `v0.2.0` · Powered by 49GAION*
+*49GAION Product Core · mandate `v0.3.0` · Powered by 49GAION*
