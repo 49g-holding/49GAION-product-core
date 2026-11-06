@@ -3,7 +3,7 @@
 | Item | State |
 |---|---|
 | Mother blueprint | `v0.1.3`, draft (29 October 2026): corrections under `49GAION/DR-0052` (`decisions/DR-0007`). It builds on `v0.1.2`, draft (29 October 2026): the release of the records since `v0.1.1`, positions only among them (`decisions/DR-0006`). It builds on `v0.1.1`, draft (19 October 2026): the Chief of Staff takes its COS code, `[ORG]CELL-PCCS` → `[ORG]CELL-COSPC` (`decisions/DR-0002`; Naming Standard R16). It builds on `v0.1.0`, draft (16 October 2026), from the Protocol section Product Core (§18) and the part card v1 (`decisions/DR-0001`; `49GAION/DR-0024`); awaiting the human hub's approval in each organisation (blueprint §13, H-07) |
-| Mandate | `v0.2.0`, proposed (20 October 2026): `MANDATE.md`, `decisions/DR-0003`. It governs where it differs from blueprint `v0.1.1`; blueprint `v0.2.0`, TEST-PC v2 and the new cards follow |
+| Mandate | `v0.3.0`, proposed (31 October 2026): `MANDATE.md`, `decisions/DR-0008`: the Chief of Staff is its seat's own (§4.3), the listed stand-ins and the same holder (§4.4), the short name and the term of every position (§4.1). It builds on `v0.2.0`, proposed (20 October 2026; `decisions/DR-0003`). It governs where it differs from blueprint `v0.1.3`; blueprint `v0.2.0`, TEST-PC v2 and the new cards follow |
 | Template | 49GAION AIOC Blueprint Template `v1.5.0` at `1abae80`, with the unreleased `v1.6.0` additions on main |
 | Library part | 49GAION Product Core, part card `v1` (`DRAFT`, `NOT_RUN`); Protocol §18 |
 | Library pin | `v0.1.2` at `d44e4fc`; `v0.1.3` is pinned in `49GAION-protocol` `library/README.md` once this text is merged |
